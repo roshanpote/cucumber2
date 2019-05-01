@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Jbk Login Test Scenario",
+        "description": "",
+        "id": "jbk-login-test-feature;jbk-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6419654712,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on login page",
+            "match": {
+              "location": "LoginStepDefination.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12911555,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Admin LTE",
+            "match": {
+              "location": "LoginStepDefination.title_of_login_page_is_Admin_LTE()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 304007649,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs username And password",
+            "match": {
+              "location": "LoginStepDefination.user_inputs_username_And_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1016664776,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks login button",
+            "match": {
+              "location": "LoginStepDefination.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14880538,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c...minLTE 2 | Dashboard[11]\u003e but was:\u003c...minLTE 2 | Dashboard[]\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat StepDefination.LoginStepDefination.user_is_on_Home_page(LoginStepDefination.java:51)\r\n\tat ✽.And User is on Home page(C:/Users/Shri Gajanan/workspace123/Cucumbert/src/main/java/Features/login.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User is on Home page",
+            "match": {
+              "location": "LoginStepDefination.user_is_on_Home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Jbk Login Test Feature",
+    "description": "",
+    "id": "jbk-login-test-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/Shri Gajanan/workspace123/Cucumbert/src/main/java/Features/login.feature"
+  }
+]
